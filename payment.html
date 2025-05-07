@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Payment Option</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .payment-options {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .payment-options img {
+      width: 150px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: border 0.3s;
+    }
+    .payment-options img:hover {
+      border: 2px solid #0077cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Select a Payment Method</h1>
+  <div class="payment-options">
+    <a href="visa.html"><img src="visa.jfif" alt="Visa"></a>
+    <a href="mastercard.html"><img src="mastercard.png" alt="MasterCard"></a>
+    <a href="paypal.html"><img src="PayPal.jpg" alt="PayPal"></a>
+  </div>
+</body>
+</html>

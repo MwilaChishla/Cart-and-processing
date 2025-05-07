@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add to Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Vegetable Shop - Add to Cart</h1>
+  <div class="product-container">
+
+    <div class="product" data-price="2">
+      <img src="Tomato.jpg" alt="Tomato">
+      <p>Tomato - $2 each</p>
+      <label>Quantity: <input type="number" min="0" value="0" class="quantity"></label>
+      <p>Total: $<span class="total">0</span></p>
+    </div>
+
+    <div class="product" data-price="3">
+      <img src="brocolli.jpg" alt="Broccoli">
+      <p>Broccoli - $3 each</p>
+      <label>Quantity: <input type="number" min="0" value="0" class="quantity"></label>
+      <p>Total: $<span class="total">0</span></p>
+    </div>
+
+    <div class="product" data-price="1.5">
+      <img src="carrot.webp" alt="Carrot">
+      <p>Carrot - $1.50 each</p>
+      <label>Quantity: <input type="number" min="0" value="0" class="quantity"></label>
+      <p>Total: $<span class="total">0</span></p>
+    </div>
+
+    <div class="product" data-price="4">
+      <img src="spinach.jpg" alt="Spinach">
+      <p>Spinach - $4 each</p>
+      <label>Quantity: <input type="number" min="0" value="0" class="quantity"></label>
+      <p>Total: $<span class="total">0</span></p>
+    </div>
+
+    <div class="product" data-price="2.5">
+      <img src="cucumber.webp" alt="Cucumber">
+      <p>Cucumber - $2.50 each</p>
+      <label>Quantity: <input type="number" min="0" value="0" class="quantity"></label>
+      <p>Total: $<span class="total">0</span></p>
+    </div>
+
+  </div>
+
+  <button onclick="goToFinishCart()">Add to Cart</button>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
